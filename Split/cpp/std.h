@@ -9,6 +9,7 @@
 #include <stdlib.h>    /* for exit */
 #include <getopt.h>
 #include <cstring>
+#include <assert.h>
 #include <boost/filesystem.hpp>
 
 #define CHUNK 1048576
