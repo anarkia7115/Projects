@@ -3,9 +3,11 @@
 
 #!/bin/bash
 
-./gz -c \
-  --gz1 ../gz/sample_n1.gz --gz2 '' \
-  --output ../small_gz/ \
-  --row 1000 \
+rm ../small_plate/*
+
+./gz \
+  --gz1 ../gz/WGC_20m_n1.fq.gz --gz2 ../gz/WGC_20m_n2.fq.gz \
+  --output ../small_plate/ \
+  --row 1000000 \
   --callid application1 
 
